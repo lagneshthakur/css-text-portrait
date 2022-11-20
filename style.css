@@ -1,0 +1,25 @@
+body {
+ background-color: #222;
+}
+
+p {
+    font-size: 12px;
+    line-height: 10px;
+    background: url('./images/sidhu-moose-wala-1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(255,255,255,0);
+}
+
+.legend-text {
+    display: block; 
+    position: fixed;
+    color: white; 
+    top: 65vh; 
+    left: 36vw; 
+    font-size: 120px;
+}
